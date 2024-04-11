@@ -28,7 +28,7 @@ def classify(image, model = face_model, classes = class_names):
         class_names (list): A list of class names corresponding to the classes that the model can predict.
 
     Returns:
-        A tuple of the predicted class name and the confidence score for that prediction.
+        Predicted class name.
     """
 
     img_gen = ImageDataGenerator(rescale=1/255)
