@@ -11,7 +11,7 @@ def main():
 
     if file is not None:
         image = Image.open(file)
-        st.image(image, use_column_width=True)
+        st.image(image)
 
         class_name = classify(image)
 
